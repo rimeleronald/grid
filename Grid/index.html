@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="icon" href="img/logo.png" type="image/png" sizes="16x16">
+		<title>Grid</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/page.css">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/bootstrap.css">		
+		<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/page.js"></script>
+	</head>
+	<body>
+		<section id="home">
+			<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+				<div class="carousel-inner">
+					<div id="mySidenav" class="sidenav">
+						<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+						<a href="#home">Kezdőlap</a>
+						<a href="#about">Akik vagyunk</a>
+						<a href="#service">Amit csinálunk</a>
+						<a href="#gallery">Ahogy mi csináljuk</a>
+						<a href="#contact">Kapcsolat</a>
+					</div>
+					<div class="container navbarmenu">
+						<div class="row">
+							<div class="col-4">
+								<img class="logo" src="img/logo.png">
+							</div>
+							<div class="col-md-3 offset-md-3 d-none d-md-block">
+								<a href="#contact"><p class="writetous">Írjon nekünk!</p></a>
+							</div>
+							<div class="col-1 offset-11 offset-sm-6 offset-md-0 col-sm-2">
+								<div class="navmenu" id="navmenu" onclick="openNav()">
+									<div class="bar1"></div>
+									<div class="bar2"></div>
+									<div class="bar3"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item active">
+						<img class="d-block w-100" src="img/grid.png">
+						<div class="carousel-caption d-none d-lg-block">
+							<p class="captiontext">Lorem ipsum dolor sit amet, cu duo appareat efficiantur.</p>
+							<p>Eum mutat tibique hendrerit no. Partem apeirian quo ad. </p>
+							<button class="btnforward">Tovább</button>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div class="carouselbg">
+							<video class="video-fluid" muted autoplay loop>
+								<source src="./img/mov_bbb.mp4">
+							</video>
+						</div>
+					</div>
+				</div>
+				<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</a>
+			</div>
+		</section>
+		<section id="about">
+			<div class="container-fluid aboutpadding aboutbgresp">
+				<div class="aboutbg">
+				</div>
+				<div class="aboutpic">
+				</div>
+				<div class="container">
+				<a href="#about">
+					<div class="mainarrow">
+					</div>
+				</a>
+				<div class="mainlinearrow">
+				</div>
+					<div class="row">
+						<div class="col-12 col-lg-6 color">
+							<h1 class="abouthead">akik vagyunk</h1>
+							<p class="abouttext">
+								Fiatalok és kreatívok, ámde korántsem pályakezdők. Csapatban dolgozunk, mert hiszünk abban, hogy a részek erősítik egymást, és egymáson/magunkon túlnőve hozzunk létre alkotásokat. Mert nekünk minden kampány, minden klip, minden fotó, minden rendezvény egyedi. Nincs két egyforma termék, nincs két egyforma megrendelő, és nincs két egyforma célcsoport sem.<br/><br/> 
+								Valljuk, hogy a kreatív és egyedi tartalmak, kampányok, plakáttervek, arculatok meghatározzák egy vállalkozás – legyen az induló, vagy már létező – rövid, közép és hosszútávú eredményeit egyaránt.<br/><br/> 
+								Mi nem gyártjuk a kreatívokat, hanem a megrendelővel együttműködve, csapatban találjuk meg a legmegfelelőbb megoldást minden kihívásra.
+							</p>
+							<button class="btnabout1">Tovább</button>
+							<button class="btnabout2">Ajánlatot kérek!</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="aboutpicresp">
+			</div>
+		</section>
+		<section id="service">
+			<div class="servicebg">
+				<div class="container">
+					<div class="mainline">
+					</div>
+					<h1 class="servicehead">amit csinálunk</h1>
+					<div class="row">
+						<div class="col-12 col-lg-6">
+							<div class="servicebox" >
+								<div class="iconholder">
+									<img class="serviceicon" src="img/ikon_onlinek.png">
+								</div>
+								<div class="lineholder">
+									<div class="line">
+									</div>
+								</div>
+								<div class="textholder">
+									<p class="servicetext"><span class="serviceheader">Online kommunikáció</span><br/>Vállalkozásodnak van weboldala, webshopja, Facebook és/vagy Instagramm profilja, de hiányolod az egységes arculatot, nem tudod, a célcsoportod hogyan és mire reagál? Kínaiul van a közösségi kommunikáció? Kommunikációs szakembereink „lefordítják neked magyarra”  a tudnivalót és segítenek az alapoktól felépíteni egységes megjelenésed a virtuális térben.</p>
+								</div>
+								<div class="arrowbg">
+									<div class="arrowholder">	
+										<button class="btnarrow" data-servicebox-opener>
+										<div class="arrow" data-servicebox-opener>
+										</div>
+									</button>
+									</div>
+								</div>
+							</div>																					
+							<div class="serviceboxresp">
+								<div class="iconholderresp">
+									<img class="serviceiconresp" src="img/ikon_onlinek.png">
+								</div>
+								<div class="lineholderresp">
+									<div class="lineresp">
+									</div>
+								</div>
+								<div class="textholderresp">
+									<p class="servicetextresp"><span class="serviceheader">Online kommunikáció</span><br/>Vállalkozásodnak van weboldala, webshopja, Facebook és/vagy Instagramm profilja, de hiányolod az egységes arculatot, nem tudod, a célcsoportod hogyan és mire reagál? Kínaiul van a közösségi kommunikáció? Kommunikációs szakembereink „lefordítják neked magyarra”  a tudnivalót és segítenek az alapoktól felépíteni egységes megjelenésed a virtuális térben.</p>
+								</div>
+								<div class="arrowbgresp" data-servicebox-opener>
+									<div class="arrowholderresp">	
+										<button class="btnarrowresp" data-servicebox-opener>
+											<div class="arrowresp" data-servicebox-opener>
+											</div>
+										</button>
+									</div>
+								</div>
+							</div>																												
+							<div class="servicebox" >
+								<div class="iconholder">
+									<img class="serviceicon" src="img/ikon_kampanyt.png">
+								</div>
+								<div class="lineholder">
+									<div class="line">
+									</div>
+								</div>
+								<div class="textholder">
+									<p class="servicetext"><span class="serviceheader">Kampánytervezés</span><br/>Bevezetnéd vagy eladnád termékedet, szolgáltatásodat, de eddig nem jártál átütő sikerrel, vagy még soha nem csináltál ilyet? Ismered pontosan a célcsoportodat? Ha mindezekkel az információkkal rendelkezel, gyors, hatékony és ütős ötletekkel megspékelt kampányterveink céged szakembereinek bevonásával határidőre elkészülnek. Kreatív munkatársaink figyelembe veszik az online és offline trendeket, megkeresik a leghatékonyabban működő közösségi csatornákat, és ennek megfelelően készítik elő kampányodat.</p>
+								</div>
+								<div class="arrowbg">
+									<div class="arrowholder">	
+										<button class="btnarrow" data-servicebox-opener>
+											<div class="arrow" data-servicebox-opener>
+											</div>
+										</button>
+									</div>
+								</div>
+							</div>
+							<div class="serviceboxresp">
+								<div class="iconholderresp">
+									<img class="serviceiconresp" src="img/ikon_kampanyt.png">
+								</div>
+								<div class="lineholderresp">
+									<div class="lineresp">
+									</div>
+								</div>
+								<div class="textholderresp">
+									<p class="servicetextresp"><span class="serviceheader">Kampánytervezés</span><br/>Bevezetnéd vagy eladnád termékedet, szolgáltatásodat, de eddig nem jártál átütő sikerrel, vagy még soha nem csináltál ilyet? Ismered pontosan a célcsoportodat? Ha mindezekkel az információkkal rendelkezel, gyors, hatékony és ütős ötletekkel megspékelt kampányterveink céged szakembereinek bevonásával határidőre elkészülnek. Kreatív munkatársaink figyelembe veszik az online és offline trendeket, megkeresik a leghatékonyabban működő közösségi csatornákat, és ennek megfelelően készítik elő kampányodat.</p>
+								</div>
+								<div class="arrowbgresp" data-servicebox-opener>
+									<div class="arrowholderresp">	
+										<button class="btnarrowresp" data-servicebox-opener>
+											<div class="arrowresp" data-servicebox-opener>
+											</div>
+										</button>
+									</div>
+								</div>
+							</div>
+							<div class="servicebox" >
+								<div class="iconholder">
+									<img class="serviceicon" src="img/ikon_rendezv.png">
+								</div>
+								<div class="lineholder">
+									<div class="line">
+									</div>
+								</div>
+								<div class="textholder">
+									<p class="servicetext"><span class="serviceheader">Rendezvényszervezés</span><br/>Céges buli, osztálytalálkozó, esküvő, születésnap, babapisiltető vagy legénybúcsú? Gondban vagy a helyszínnel, a zenével, a hangosítással, de jó lenne, ha készülne pár vagány fotó vagy dögös videó az eseményről? Kitaláljuk, lefoglaljuk, megszervezzük, nyélbe ütjük. A szervezés a mi gondunk, a többi a tiéd.</p>
+								</div>
+								<div class="arrowbg">
+									<div class="arrowholder">	
+										<button class="btnarrow" data-servicebox-opener>
+											<div class="arrow" data-servicebox-opener>
+											</div>
+										</button>
+									</div>
+								</div>
+							</div>
+							<div class="serviceboxresp">
+								<div class="iconholderresp">
+									<img class="serviceiconresp" src="img/ikon_rendezv.png">
+								</div>
+								<div class="lineholderresp">
+									<div class="lineresp">
+									</div>
+								</div>
+								<div class="textholderresp">
+									<p class="servicetextresp"><span class="serviceheader">Rendezvényszervezés</span><br/>Céges buli, osztálytalálkozó, esküvő, születésnap, babapisiltető vagy legénybúcsú? Gondban vagy a helyszínnel, a zenével, a hangosítással, de jó lenne, ha készülne pár vagány fotó vagy dögös videó az eseményről? Kitaláljuk, lefoglaljuk, megszervezzük, nyélbe ütjük. A szervezés a mi gondunk, a többi a tiéd.</p>
+								</div>
+								<div class="arrowbgresp" data-servicebox-opener>
+									<div class="arrowholderresp">	
+										<button class="btnarrowresp" data-servicebox-opener>
+											<div class="arrowresp" data-servicebox-opener>
+											</div>
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-lg-6">
+							<div class="servicebox" >
+								<div class="iconholder">
+									<img class="serviceicon" src="img/ikon_arculat.png">
+								</div>
+								<div class="lineholder">
+									<div class="line">
+									</div>
+								</div>
+								<div class="textholder">
+									<p class="servicetext"><span class="serviceheader">Arculat</span><br/>Az egységes arculati megjelenés nem egyszerűen a divathóbort, vagy az elegancia miatt szükséges. A célcsoportodnak megfelelő színek, hangok, illatok, betűminták, logók, hírlevelek, közösségi profilok akkor működnek összehangoltan és hozzák meg az elvárt eredményt, ha tervszerűen és a fogyasztói igényeknek megfelelően lett kialakítva. A GRID-nél mi ezt csapatmunkában készítjük, kommunikációs szakember, designer, grafikai tervező, fotós és operatőr munkatársaink tapasztalataikat összeadva terveznek egységes és szerethető, sikeres és kompatibilis tartalmakat.</p>
+								</div>
+								<div class="arrowbg">
+									<div class="arrowholder">	
+										<button class="btnarrow" data-servicebox-opener>
+											<div class="arrow" data-servicebox-opener>
+											</div>
+										</button>
+									</div>
+								</div>
+							</div>
+							<div class="serviceboxresp">
+								<div class="iconholderresp">
+									<img class="serviceiconresp" src="img/ikon_arculat.png">
+								</div>
+								<div class="lineholderresp">
+									<div class="lineresp">
+									</div>
+								</div>
+								<div class="textholderresp">
+									<p class="servicetextresp"><span class="serviceheader">Arculat</span><br/>Az egységes arculati megjelenés nem egyszerűen a divathóbort, vagy az elegancia miatt szükséges. A célcsoportodnak megfelelő színek, hangok, illatok, betűminták, logók, hírlevelek, közösségi profilok akkor működnek összehangoltan és hozzák meg az elvárt eredményt, ha tervszerűen és a fogyasztói igényeknek megfelelően lett kialakítva. A GRID-nél mi ezt csapatmunkában készítjük, kommunikációs szakember, designer, grafikai tervező, fotós és operatőr munkatársaink tapasztalataikat összeadva terveznek egységes és szerethető, sikeres és kompatibilis tartalmakat.</p>
+								</div>
+								<div class="arrowbgresp" data-servicebox-opener>
+									<div class="arrowholderresp">	
+										<button class="btnarrowresp" data-servicebox-opener>
+											<div class="arrowresp" data-servicebox-opener>
+											</div>
+										</button>
+									</div>
+								</div>
+							</div>
+							<div class="servicebox" >
+								<div class="iconholder">
+									<img class="serviceicon" src="img/ikon_grafika.png">
+								</div>
+								<div class="lineholder">
+									<div class="line">
+									</div>
+								</div>
+								<div class="textholder">
+									<p class="servicetext"><span class="serviceheader">Grafika</span><br/>Grafikusaink fiatalok, sikeresek és szépek és szinte mindent tudnak a fogyasztói igényekről. Ha ehhez hozzátesszük céged tapasztalatait, akkor egyedi, megjegyezhető és megszerethető megjelenéseket álmodunk meg számodra, melyek akár óriásplakáton, akár szórólapon, akár a Facebookon megállják a helyüket, és elősegítik vállalkozásod sikerét.</p>
+								</div>
+								<div class="arrowbg">
+									<div class="arrowholder">	
+										<button class="btnarrow" data-servicebox-opener>
+											<div class="arrow" data-servicebox-opener>
+											</div>
+										</button>
+									</div>
+								</div>
+							</div>
+							<div class="serviceboxresp">
+								<div class="iconholderresp">
+									<img class="serviceiconresp" src="img/ikon_grafika.png">
+								</div>
+								<div class="lineholderresp">
+									<div class="lineresp">
+									</div>
+								</div>
+								<div class="textholderresp">
+									<p class="servicetextresp"><span class="serviceheader">Grafika</span><br/>Grafikusaink fiatalok, sikeresek és szépek és szinte mindent tudnak a fogyasztói igényekről. Ha ehhez hozzátesszük céged tapasztalatait, akkor egyedi, megjegyezhető és megszerethető megjelenéseket álmodunk meg számodra, melyek akár óriásplakáton, akár szórólapon, akár a Facebookon megállják a helyüket, és elősegítik vállalkozásod sikerét.</p>
+								</div>
+								<div class="arrowbgresp" data-servicebox-opener>
+									<div class="arrowholderresp">	
+										<button class="btnarrowresp" data-servicebox-opener>
+											<div class="arrowresp" data-servicebox-opener>
+											</div>
+										</button>
+									</div>
+								</div>
+							</div>
+							<div class="servicebox" >
+								<div class="iconholder">
+									<img class="serviceicon" src="img/ikon_film.png">
+								</div>
+								<div class="lineholder">
+									<div class="line">
+									</div>
+								</div>
+								<div class="textholder">
+									<p class="servicetext"><span class="serviceheader">Film/videó/klip</span><br/>bármilyen mozgóképes tartalmat elkészítünk. Ha van ötleted, akkor az alapján, ha nincs, segítünk kitalálni. A célcsoport elvárásait figyelembe vesszük már a forgatókönyv előkészítésekor. Igény szerint a szereplők válogatása, a helyszínek kiválasztása és technikai biztosítása mind a mi feladatunk. Ha csak egyszerű referenciafilmet szeretnél a gyártás, csomagolás, kereskedelem területén, mi ott is egy kicsit máshogy gondolkozunk. Szeretjük a meghökkentő ötleteket, díjazzuk a szokatlan helyzeteket, és ötvözzük a kreativitást a képi megvalósítással. Tőlünk olyat kapsz, amilyen a konkurenciának biztosan nincs.<br/><br/>
+														   Rendezvényről, születésnapról szeretnél emléket? Operatőreink, hangtechnikusunk, illetve az utómunkákat végző szakembereink sokéves tapasztalata segít abban, hogy újszerűen, élvezhetően, és fogyaszthatóan jelenj meg a digitális térben, vagy hogy sok év elteltével is szívesen nézd vissza eseménydús emlékeid.</p>
+								</div>
+								<div class="arrowbg">
+									<div class="arrowholder">	
+										<button class="btnarrow" data-servicebox-opener>
+											<div class="arrow" data-servicebox-opener>
+											</div>
+										</button>
+									</div>
+								</div>
+							</div>
+							<div class="serviceboxresp">
+								<div class="iconholderresp">
+									<img class="serviceiconresp" src="img/ikon_film.png">
+								</div>
+								<div class="lineholderresp">
+									<div class="lineresp">
+									</div>
+								</div>
+								<div class="textholderresp">
+									<p class="servicetextresp"><span class="serviceheader">Film/videó/klip</span><br/>bármilyen mozgóképes tartalmat elkészítünk. Ha van ötleted, akkor az alapján, ha nincs, segítünk kitalálni. A célcsoport elvárásait figyelembe vesszük már a forgatókönyv előkészítésekor. Igény szerint a szereplők válogatása, a helyszínek kiválasztása és technikai biztosítása mind a mi feladatunk. Ha csak egyszerű referenciafilmet szeretnél a gyártás, csomagolás, kereskedelem területén, mi ott is egy kicsit máshogy gondolkozunk. Szeretjük a meghökkentő ötleteket, díjazzuk a szokatlan helyzeteket, és ötvözzük a kreativitást a képi megvalósítással. Tőlünk olyat kapsz, amilyen a konkurenciának biztosan nincs.<br/><br/>
+														       Rendezvényről, születésnapról szeretnél emléket? Operatőreink, hangtechnikusunk, illetve az utómunkákat végző szakembereink sokéves tapasztalata segít abban, hogy újszerűen, élvezhetően, és fogyaszthatóan jelenj meg a digitális térben, vagy hogy sok év elteltével is szívesen nézd vissza eseménydús emlékeid.</p>
+								</div>
+								<div class="arrowbgresp" data-servicebox-opener>
+									<div class="arrowholderresp">	
+										<button class="btnarrowresp" data-servicebox-opener>
+											<div class="arrowresp" data-servicebox-opener>
+											</div>
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>						
+					</div>
+					<button class="servicebtn">Ajánlatot kérek!</button>
+				</div>
+			</div>			
+		</section>	
+		<section id="gallery">
+			<div class="gallerybg">
+				<div class="container">
+					<div class="mainline">
+					</div>
+					<h1 class="servicehead">ahogy mi csináljuk</h1>
+				</div>
+				<div class="lb">
+					<img class="tomcoimg" src="img/kep_ego.jpg">
+					<div class="imgbg">
+						<div class="imgcontent">
+							<div class="imgcontain">
+								<p class="imghead">Ezt akkor Tomcó</p>
+								<div class="imgline">
+								</div>
+								<p class="imgtext">rád bízom, hogy hogyan és miként csinálod meg</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<button class="gallerybtn">További munkák
+					<div class="gallerybtnarrow">
+				</button>
+			</div>
+		</section>
+		<section id="contact">
+			<div class="contactbg">
+				<div class="container">
+					<div class="mainline">
+					</div>
+					<div class="row">
+						<div class="col-12 col-sm-6 col-xl-4">
+							<h5 class="contactheader">
+								Elérhetőségek
+							</h5>
+							<div class="contactbox">
+								<p class="contacttext">The GRID Studio</p>
+								<div class="icontext">
+									<div class="icon">
+										<img class="contacticon" src="img/ikonkontakt_email.png">
+									</div>
+									<p class="text">info@gridstudio.hu</p>
+								</div>
+								<div class="icontext">
+									<div class="icon">
+										<img class="contacticon" src="img/ikonkontakt_hely.png">
+									</div>
+									<p class="text">1111 Budapest, Utcanév </p>
+								</div>
+								<div class="icontext">
+									<div class="icon">
+										<img class="contacticon" src="img/ikonkontakt_tel.png">
+									</div>
+									<p class="text">(1) 234 567</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-sm-6 col-xl-4">
+							<h5 class="contactheader">
+								Social media
+							</h5>
+							<div class="contactbox">
+								<div class="contacttext">
+									<div class="iconrow1">
+									</div>
+									<div class="iconrow2">
+									</div>
+									<div class="iconrow3">
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-xl-4">
+							<h5 class="contactheader">
+								Üzenet küldése
+							</h5>
+							<div class="contactbox">
+								<div class="formbox">
+									<form>
+										<input type="text" name="name" placeholder="Név" class="inputtext">
+										<input type="email" name="email" placeholder="E-mail cím" class="inputemail">
+										<input type="text" name="subject"  placeholder="Tárgy" class="inputsubject">
+										<textarea name="message" placeholder="Üzenet írása..." class="inputarea" rows="5"></textarea>
+										<input type="submit" value="Küldés" class="submitbtn">
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</body>
+</html>	

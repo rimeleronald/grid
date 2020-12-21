@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="icon" href="img/logo.png" type="image/png" sizes="16x16">
+		<title>Grid</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/service.css">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/bootstrap.css">		
+		<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/page.js"></script>
+	</head>
+	<body>
+		<div id="mySidenav" class="sidenav">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			<a href="#home">Kezdőlap</a>
+			<a href="#about">Akik vagyunk</a>
+			<a href="#service">Amit csinálunk</a>
+			<a href="#gallery">Ahogy mi csináljuk</a>
+			<a href="#contact">Kapcsolat</a>
+		</div>
+		<div class="container-fluid navbg topnav">
+			<div class="container navbarmenu">
+				<div class="row">
+					<div class="col-4">
+						<img class="logo" src="img/logo.png">
+					</div>
+					<div class="col-md-3 offset-md-3 d-none d-md-block">
+						<a href="#contact"><p class="writetous">Írjon nekünk!</p></a>
+					</div>
+					<div class="col-1 offset-11 offset-sm-6 offset-md-0 col-sm-2">
+						<div class="navmenu" id="navmenu" onclick="openNav()">
+							<div class="bar1"></div>
+							<div class="bar2"></div>
+							<div class="bar3"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container containerbox">
+			<div class="row">
+			<button class="collapsible">Szűrő</button>
+				<div class="categorybuttonsresp content">
+					<button class="categorybtn" onclick="openCategory(event, 'Logo')" id="defaultOpen">Logó- és arculattervezés</button>
+					<button class="categorybtn" onclick="openCategory(event, 'Print')">Nyomdai anyagok</button>
+					<button class="categorybtn" onclick="openCategory(event, 'Picture')">Fotók</button>
+					<button class="categorybtn" onclick="openCategory(event, 'Event')">Rendezvények</button>
+				</div>
+				<div class="col-12">
+					<h1>ahogy mi csináljuk</h1>
+				</div>
+				<div class="col-12 flex">
+						<div class="categorybuttons" id="myDropdown">
+							<button class="categorybtn" onclick="openCategory(event, 'Logo')" id="defaultOpen">Logó- és arculattervezés</button>
+							<button class="categorybtn" onclick="openCategory(event, 'Print')">Nyomdai anyagok</button>
+							<button class="categorybtn" onclick="openCategory(event, 'Picture')">Fotók</button>
+							<button class="categorybtn" onclick="openCategory(event, 'Event')">Rendezvények</button>
+						</div>
+					</div>
+				</div>
+				<div id="Logo" class="categoryimg">
+					<div class="lb">
+						<img class="tomcoimg" src="./img/kep_ego.jpg">
+						<div class="imgbg">
+							<div class="imgcontent">
+								<div class="imgcontain">
+									<p class="imghead">Ezt akkor Tomcó</p>
+									<div class="imgline">
+									</div>
+									<p class="imgtext">rád bízom, hogy hogyan és miként csinálod meg</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="Print" class="categoryimg">
+					<div class="lb">
+						<img class="tomcoimg" src="./img/grid.png">
+						<div class="imgbg">
+							<div class="imgcontent">
+								<div class="imgcontain">
+									<p class="imghead">Ezt akkor Tomcó</p>
+									<div class="imgline">
+									</div>
+									<p class="imgtext">rád bízom, hogy hogyan és miként csinálod meg</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="Picture" class="categoryimg">
+					<div class="lb">
+						<img class="tomcoimg" src="./img/kep_ego.jpg">
+						<div class="imgbg">
+							<div class="imgcontent">
+								<div class="imgcontain">
+									<p class="imghead">Ezt akkor Tomcó</p>
+									<div class="imgline">
+									</div>
+									<p class="imgtext">rád bízom, hogy hogyan és miként csinálod meg</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="Event" class="categoryimg">
+					<div class="lb">
+						<img class="tomcoimg" src="./img/grid.png">
+						<div class="imgbg">
+							<div class="imgcontent">
+								<div class="imgcontain">
+									<p class="imghead">Ezt akkor Tomcó</p>
+									<div class="imgline">
+									</div>
+									<p class="imgtext">rád bízom, hogy hogyan és miként csinálod meg</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
